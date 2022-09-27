@@ -5,6 +5,7 @@
 
 ___
 
+
 ## Background
 In this project, I loaded a historical dataset from previous loan applications, cleaned the data, and applied different classification algorithms on the data in order to predict whether a loan case will be paid off or not.
 
@@ -20,23 +21,17 @@ And I used the following metrics to evaluate my models in my report:
 - Log Loss
 
 
-
-
-
 ---
 
+
 ## Technologies & Usage
-This project leverages Python 3.9, Numpy, Matplotlib, Scikit-Learn, Pandas
-with the following requirements and dependencies:
-
-
-
--import itertools
--import numpy as np
--import matplotlib.pyplot as plt
--from matplotlib.ticker import NullFormatter
--import pandas as pd
--import numpy as np
--import matplotlib.ticker as ticker
--from sklearn import preprocessing
--%matplotlib inline
+This project leverages Python 3.9, Numpy, Matplotlib, Scikit-Learn, Pandas, and Seaborn with the following requirements and dependencies:
+- import itertools
+- import numpy as np
+- import matplotlib.pyplot as plt
+- from matplotlib.ticker import NullFormatter
+- import pandas as pd
+- import numpy as np
+- import matplotlib.ticker as ticker
+- from sklearn import preprocessing
+- %matplotlib inline
