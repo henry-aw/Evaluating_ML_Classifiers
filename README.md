@@ -35,3 +35,13 @@ This project leverages Python 3.9, Numpy, Matplotlib, Scikit-Learn, Pandas, and 
 - import matplotlib.ticker as ticker
 - from sklearn import preprocessing
 - %matplotlib inline
+- import warnings
+- import seaborn as sns
+- from sklearn.model_selection import train_test_split
+- from sklearn.neighbors import KNeighborsClassifier
+- from sklearn import metrics
+- from sklearn.tree import DecisionTreeClassifier
+- import sklearn.tree as tree
+- from sklearn import svm
+- from sklearn.linear_model import LogisticRegression
+- from sklearn.metrics import confusion_matrix, jaccard_score, f1_score, logg_loss
