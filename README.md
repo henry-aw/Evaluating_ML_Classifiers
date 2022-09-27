@@ -26,14 +26,17 @@ And I used the following metrics to evaluate my models in my report:
 ---
 
 ## Technologies & Usage
-This project leverages Python 3.7, SciKit-Learn, and the Pandas library with the following requirements and dependencies:
-- import pandas as pd
-- import numpy as np
-- from pathlib import Path
-- import hvplot.pandas
-- import matplotlib.pyplot as plt
-- from sklearn import svm
-- from sklearn import tree
-- from sklearn.preprocessing import StandardScaler
-- from pandas,tseries.offsets import DateOffset
-- from sklearn.metrics import classification_report
+This project leverages Python 3.9, Numpy, Matplotlib, Scikit-Learn, Pandas
+with the following requirements and dependencies:
+
+
+
+-import itertools
+-import numpy as np
+-import matplotlib.pyplot as plt
+-from matplotlib.ticker import NullFormatter
+-import pandas as pd
+-import numpy as np
+-import matplotlib.ticker as ticker
+-from sklearn import preprocessing
+-%matplotlib inline
